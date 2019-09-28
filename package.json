@@ -1,0 +1,15 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Web server for tank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "raspberry-pi-camera-native": "0.0.0"
+  }
+}
