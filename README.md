@@ -22,7 +22,7 @@ To just use the streamer without the example content, you can also install via n
 <code>npm install raspberrypi-node-camera-web-streamer</code>
 
 Then in your js, you can start it like this:
-<code>
+<pre>
     const app = express();
     const videoStream = require('./videoStream.js');
     videoStream.acceptConnections(app, {
@@ -32,4 +32,4 @@ Then in your js, you can start it like this:
     encoding: 'JPEG',
     quality: 7 //lower is faster
     }, '/stream.mjpg', true);
-</code>
+</pre>
