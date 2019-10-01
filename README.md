@@ -3,7 +3,7 @@ Stream a realtime raspberry pi camera feed through an HTML web page
 
 After many hours of searching the web, I realized that, as prolific as raspberry pi's, cameras, and node.js are, there was no fusion of the three. I wrote this node.js solution in response to that in hopes that others may find it useful. This project can serve as a stand-alone video streamer or as a template for a much more complicated project.
 
-The camera is streamed as a .mjpeg file into a <img> tag. The implementation is simple yet fully effective.
+The camera is streamed as a .mjpeg file into a &lt;img /&gt; tag. The implementation is simple yet fully effective.
 
 Assuming you already have node.js installed, steps to install are:
 
