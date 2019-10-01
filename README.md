@@ -34,4 +34,4 @@ videoStream.acceptConnections(app, {
 }, '/stream.mjpg', true);
 </pre>
 
-<code>videoStream.acceptConnections<code> accepts 4 parameters: <code>express</code> module, <code>settings object</code> (optional), <code>path</code> to host the streaming resource (optional), and <code>isVerbose</code> (optional).
+<code>videoStream.acceptConnections</code> accepts 4 parameters: <code>express</code> module, <code>settings object</code> (optional), <code>path</code> to host the streaming resource (optional), and <code>isVerbose</code> (optional).
