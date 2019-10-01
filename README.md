@@ -24,7 +24,7 @@ To just use the streamer without the example content, you can also install via n
 Then in your js, you can start it like this:
 <pre>
 const app = express();
-const videoStream = require('./videoStream.js');
+const videoStream = require('raspberrypi-node-camera-web-streamer');
 videoStream.acceptConnections(app, {
     width: 1280,
     height: 720,
@@ -33,3 +33,5 @@ videoStream.acceptConnections(app, {
     quality: 7 //lower is faster
 }, '/stream.mjpg', true);
 </pre>
+
+<code>videoStream.acceptConnections<code> accepts 4 parameters: <code>express</code> module, <code>settings object</code> (optional), <code>path</code> to host the streaming resource (optional), and <code>isVerbose</code> (optional).
