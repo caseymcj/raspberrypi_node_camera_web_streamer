@@ -23,22 +23,14 @@ To just use the streamer without the example content, you can also install via n
 
 Then in your js, you can start it like this:
 <code>
-    
 const app = express()
-
 const videoStream = require('./videoStream.js');
-
 videoStream.acceptConnections(app, {
-    
-    width: 1280,
-    
-    height: 720,
-    
-    fps: 16,
-    
-    encoding: 'JPEG',
-    
-    quality: 7 //lower is faster
 
+    width: 1280,
+    height: 720,
+    fps: 16,
+    encoding: 'JPEG',
+    quality: 7 //lower is faster
 }, '/stream.mjpg', true);
   </code>
