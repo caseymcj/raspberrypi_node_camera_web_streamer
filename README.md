@@ -9,7 +9,7 @@ Assuming you already have node.js installed, steps to install are:
 
 1) Download the repo
 
-2) Restore dependencies by running <code>npm -install</code> from within the folder of the repo
+2) Restore dependencies by running <code>npm install</code> from within the folder of the repository
 
 3) Start the server by running <code>node index.js</code>
 
