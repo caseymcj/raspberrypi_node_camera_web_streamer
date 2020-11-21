@@ -1,13 +1,27 @@
 {
   "name": "webserver",
-  "version": "1.0.0",
-  "description": "Web server for tank",
+  "version": "1.0.3",
+  "description": "HTTP video streamer for raspberrypi.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caseymcj/raspberrypi_node_camera_web_streamer"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "node",
+    "camera",
+    "html",
+    "web",
+    "stream",
+    "live"
+  ],
+  "author": "Casey Johnson",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "raspberry-pi-camera-native": "0.0.0"

@@ -27,6 +27,8 @@ Streaming quality settings can also be modified within the `index.js` file.
 
 ### Install via npm
 
+### **NOTE: MAKE SURE THE CAMERA INTERFACE IS ENABLED USING `sudo raspi-config` (under interface options). OTHERWISE, AN ERROR WILL BE THROWN WHEN THE CAMERA INITIALIZES.**
+
 Execute the below command:
 ```
 npm install raspberrypi-node-camera-web-streamer
