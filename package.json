@@ -1,5 +1,5 @@
 {
-  "name": "webserver",
+  "name": "raspberrypi-node-camera-web-streamer",
   "version": "1.0.3",
   "description": "HTTP video streamer for raspberrypi.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/caseymcj/raspberrypi_node_camera_web_streamer"
+    "url": "https://github.com/caseymcj/raspberrypi_node_camera_web_streamer"
   },
   "keywords": [
     "raspberry",
