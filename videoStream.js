@@ -14,8 +14,9 @@ let videoStream = {
 
         // start capture
         raspberryPiCamera.start(cameraOptions);
-        if(isVerbose)
+        if(isVerbose) {
             console.log('Camera started.');
+        }
 
         if(typeof resourcePath === 'undefined' || !resourcePath){
             resourcePath = '/stream.mjpg';
