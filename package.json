@@ -1,6 +1,6 @@
 {
   "name": "raspberrypi-node-camera-web-streamer",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "HTTP video streamer for raspberrypi.",
   "main": "index.js",
   "scripts": {
