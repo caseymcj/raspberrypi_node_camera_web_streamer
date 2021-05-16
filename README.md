@@ -55,3 +55,5 @@ The video frames can be continuously streamed using an `img` HTML tag (the serve
 ```
 
 `videoStream.acceptConnections` accepts 4 parameters: `express` module, `settings object` (optional), `path` to host the streaming resource (optional), and `isVerbose` (optional).
+
+The last video frame captured can also be retrieved as a .jpg image by calling `videoStream.getLastFrame()`. If no frame has been captured (which can happen if no users have connected yet), then this will be `null`.
