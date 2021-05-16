@@ -4,7 +4,7 @@ const fs = require('fs')
 const port = 3000;
 
 // start capture
-const videoStream = require('raspberrypi-node-camera-web-streamer');
+const videoStream = require('./videoStream');
 videoStream.acceptConnections(app, {
         width: 1280,
         height: 720,
