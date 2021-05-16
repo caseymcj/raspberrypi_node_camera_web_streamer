@@ -1,4 +1,11 @@
+let lastFrameObj = {
+    lastFrame: null
+};
+
 let videoStream = {
+    getLastFrame: () => {
+        return lastFrameObj.lastFrame;
+    },
     acceptConnections: function(expressApp, cameraOptions, resourcePath, isVerbose){
         const raspberryPiCamera = require('raspberry-pi-camera-native');
 
@@ -47,6 +54,8 @@ let videoStream = {
         
                     if(isVerbose)
                         console.log('Writing frame: '+frameData.length);
+
+                    lastFrameObj.lastFrame = frameData;
 
                     res.write(`--myboundary\nContent-Type: image/jpg\nContent-length: ${frameData.length}\n\n`);
                     res.write(frameData, function(){
