@@ -48,7 +48,7 @@ let videoStream = {
                     if(isVerbose)
                         console.log('Writing frame: '+frameData.length);
 
-                    res.write('--myboundary\nContent-Type: image/jpg\nContent-length: ${frameData.length}\n\n');
+                    res.write(`--myboundary\nContent-Type: image/jpg\nContent-length: ${frameData.length}\n\n`);
                     res.write(frameData, function(){
                         isReady = true;
                     });
