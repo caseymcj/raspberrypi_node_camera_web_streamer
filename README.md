@@ -35,7 +35,7 @@ npm install raspberrypi-node-camera-web-streamer
 ```
 
 Then in your node script, you can start it like this:
-```
+```js
 const express = require('express')
 const app = express()
 const videoStream = require('raspberrypi-node-camera-web-streamer');
