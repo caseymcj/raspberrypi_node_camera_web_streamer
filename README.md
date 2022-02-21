@@ -1,4 +1,7 @@
 # raspberrypi_node_camera_web_streamer
+## Compatibility Notice
+This project is *NOT* compatible with the latest Raspberry Pi OS 11 (Bullseye). **Please use OS 10 (Buster) for now.** Support for OS 11+ will be added once general Node support for `libcamera` is available.
+
 ## Stream a realtime raspberry pi camera feed through an HTML web page
 
 After many hours of searching the web, I realized that, as prolific as raspberry pi's, cameras, and node.js are, there was no fusion of the three. I wrote this node.js solution in response to that in hopes that others may find it useful. This project can serve as a stand-alone video streamer or as a template for a much more complicated project.
@@ -24,6 +27,7 @@ Anything inside the `public` folder is hosted as static content. The index.html 
 Streaming quality settings can also be modified within the `index.js` file.
 
 ## Installation
+Make sure you have Node JS installed. I've found [this easy guide very helpful for installing Node on 32-bit Raspberry PI OS](https://hassancorrigan.com/blog/install-nodejs-on-a-raspberry-pi-zero/).
 
 ### Install via npm
 
